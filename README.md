@@ -1,36 +1,36 @@
-```markdown
-# 🏥 Secure Medical Image Sharing – Frontend
+Secure Medical Image Sharing – Frontend
 
-A secure web application frontend built using **React + Vite** for uploading, viewing, and securely sharing medical images between healthcare providers and patients.
+A secure web application frontend built using React + Vite for uploading, viewing, and securely sharing medical images between healthcare providers and patients.
 
----
+🚀 Features
 
-## 🚀 Features
+🔐 User Authentication (Login / Register)
 
-- 🔐 User Authentication (Login / Register)
-- 📤 Secure Medical Image Upload
-- 🖼️ View & Manage Uploaded Images
-- 👥 Role-based access (Doctor / Patient)
-- 🔒 Secure API communication
-- ⚡ Fast development with Vite + HMR
-- 🧹 ESLint configured
+📤 Secure Medical Image Upload
 
----
+🖼️ View & Manage Uploaded Images
 
-## 🛠️ Tech Stack
+👥 Role-based access (Doctor / Patient)
 
-- React
-- Vite
-- JavaScript
-- Axios (if used)
-- React Router (if used)
+🔒 Secure API communication
 
----
+⚡ Fast development with Vite + HMR
 
-## 📁 Project Structure
+🧹 ESLint configured
 
-```
+🛠️ Tech Stack
 
+React
+
+Vite
+
+JavaScript
+
+Axios (if used)
+
+React Router (if used)
+
+📁 Project Structure
 Secure-Medical-Image-sharing-frontend/
 │
 ├── public/               # Static files
@@ -46,138 +46,67 @@ Secure-Medical-Image-sharing-frontend/
 ├── vite.config.js
 └── README.md
 
-```
-
----
-
-## ⚙️ Prerequisites
+⚙️ Prerequisites
 
 Make sure you have installed:
 
-- Node.js (v16 or higher recommended)
-- npm (comes with Node)
+Node.js (v16 or higher recommended)
+
+npm (comes with Node)
 
 Check versions:
-
-```
 
 node -v
 npm -v
 
-```
+▶️ How to Run the Project in VS Code
+Step 1: Clone the Repository
+git clone https://github.com/lakshmi-prasanna-hub/Secure-Medical-Image-sharing-frontend.git
 
----
-
-## ▶️ How to Run the Project in VS Code
-
-### 1️⃣ Clone the Repository
-
-```
-
-git clone [https://github.com/lakshmi-prasanna-hub/Secure-Medical-Image-sharing-frontend.git](https://github.com/lakshmi-prasanna-hub/Secure-Medical-Image-sharing-frontend.git)
-
-```
-
----
-
-### 2️⃣ Open in VS Code
-
-```
-
+Step 2: Open in VS Code
 cd Secure-Medical-Image-sharing-frontend
 code .
 
-```
 
-OR  
-Right click folder → **Open with Code**
+OR
+Right click folder → Open with Code
 
----
+Step 3: Install Dependencies
 
-### 3️⃣ Install Dependencies
-
-Open terminal in VS Code and run:
-
-```
+Open terminal in VS Code:
 
 npm install
 
-```
 
 This installs all required packages.
 
----
-
-### 4️⃣ Start Development Server
-
-```
-
+Step 4: Start Development Server
 npm run dev
 
-```
 
 You will see output like:
 
-```
-
 VITE vX.X.X ready in XXX ms
-Local: [http://localhost:5173/](http://localhost:5173/)
+Local: http://localhost:5173/
 
-```
 
-Open your browser and go to:
+👉 Open the browser and go to:
 
-```
+http://localhost:5173/
 
-[http://localhost:5173/](http://localhost:5173/)
-
-```
-
----
-
-## 🏗️ Build for Production
-
-```
-
+🏗️ Build for Production
 npm run build
 
-```
 
 To preview production build:
 
-```
-
 npm run preview
 
-```
+🔐 Environment Variables
 
----
+If using API backend, create a .env file:
 
-## 🔐 Environment Variables
+VITE_API_URL=http://localhost:5000/api
 
-If using a backend API, create a `.env` file in the root folder:
 
-```
-
-VITE_API_URL=[http://localhost:5000/api](http://localhost:5000/api)
-
-```
-
-Restart the development server after adding `.env`.
-
----
-
-## 📌 Future Improvements
-
-- End-to-end encryption
-- Cloud storage integration
-- Audit logs
-- Role-based dashboard UI
-- Medical file type validation
-
----
-
-## 👩‍💻 Author
-
-Lakshmi Prasanna
-```
+Restart server after adding .env.
